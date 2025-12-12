@@ -1,5 +1,7 @@
 # tmux-config
 
+This repository is broken out from my [dotfiles](https://githuh.com/kaar/dotfiles).
+
 ## Install
 
 ```sh
@@ -7,6 +9,10 @@ git clone https://github.com/kaar/tmux-config $HOME/.config/tmux
 git clone https://github.com/tmux-plugins/tpm $HOME/.config/tmux/plugins/tpm
 # Then: prefix + I to install plugins
 ```
+
+## Related
+- https://github.com/kaar/dotfiles
+- https://github.com/kaar/nvim-config
 
 ## TODO
 
