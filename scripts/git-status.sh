@@ -26,6 +26,7 @@ set -o pipefail
 # - Add repository name, either only the name or the full remote github path?
 # - Add `--help` printing the status indicator info and some example output
 # - Not sure if uncommited changes works
+# - Show when in a git worktree by adding either a icon or name of base repo
 
 # Get the current working directory from tmux
 # When called from tmux status line, we need to get the pane's current path
