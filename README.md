@@ -10,6 +10,42 @@ git clone https://github.com/tmux-plugins/tpm $HOME/.config/tmux/plugins/tpm
 # Then: prefix + I to install plugins
 ```
 
+## Keybindings
+
+Prefix: `Ctrl+Space`
+
+### Custom
+
+| Key | Description |
+|-----|-------------|
+| `f` | Open project selector (tp co) |
+| `r` | Reload config |
+| `\|` | Split pane horizontally |
+| `-` | Split pane vertically |
+| `H/J/K/L` | Resize panes |
+| `C-Space` | Switch to last window |
+| `M-h/l` | Previous/next window (no prefix) |
+| `M-1..9` | Select window 1-9 (no prefix) |
+
+### Planned
+
+| Key | Description | Status |
+|-----|-------------|--------|
+| `C-f` | Switch to previous project (tp co -) | Pending tp implementation |
+| `g` | Alternative for above | Available |
+
+### Plugins
+
+| Key | Description | Plugin |
+|-----|-------------|--------|
+| `F` | Fuzzy finder menu | tmux-fzf |
+| `I` | Install plugins | tpm |
+| `U` | Update plugins | tpm |
+| `M-u` | Clean unused plugins | tpm |
+| `C-s` | Save session | tmux-resurrect |
+| `C-r` | Restore session | tmux-resurrect |
+| `C-h/j/k/l` | Navigate panes (vim-aware) | vim-tmux-navigator |
+
 ## Related
 - https://github.com/kaar/dotfiles
 - https://github.com/kaar/nvim-config
